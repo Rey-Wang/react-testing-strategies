@@ -1,5 +1,5 @@
 import React from "react";
-import { renderHook } from "@testing-library/react-hooks";
+import { act, renderHook } from "@testing-library/react-hooks";
 import { Provider } from "react-redux";
 import configureMockStore from "redux-mock-store";
 import { useOrderHeader } from "../hooks";

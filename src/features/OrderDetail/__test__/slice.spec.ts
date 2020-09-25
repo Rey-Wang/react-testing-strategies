@@ -26,6 +26,13 @@ describe("Slice", () => {
         ordersById: {
           "123": {
             id: "123",
+            tnumber: {
+              instruction: [
+                {
+                  actions: "",
+                },
+              ],
+            },
           },
         },
       },
